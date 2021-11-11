@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/dawarm/.nvm/versions/node/v16.10.0/bin/node',
+1 verbose cli   '/home/dawarm/.nvm/versions/node/v16.10.0/bin/npm',
+1 verbose cli   'update'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v16.10.0
+4 verbose stack TypeError: cb.apply is not a function
+4 verbose stack     at /home/dawarm/.nvm/versions/node/v16.10.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:267:18
+4 verbose stack     at FSReqCallback.oncomplete (node:fs:199:5)
+5 verbose cwd /home/dawarm/repo/toDoApp
+6 error Linux 4.4.0-18362-Microsoft
+7 error argv "/home/dawarm/.nvm/versions/node/v16.10.0/bin/node" "/home/dawarm/.nvm/versions/node/v16.10.0/bin/npm" "update"
+8 error node v16.10.0
+9 error npm  v3.10.10
+10 error cb.apply is not a function
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
